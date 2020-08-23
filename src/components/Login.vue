@@ -57,6 +57,7 @@ export default {
             })
         },
         resetForm:function(){
+            //情空表单验证错误信息
             this.$refs.ruleFormRef.resetFields();
         }
     }
